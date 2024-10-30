@@ -1,0 +1,169 @@
+/* Ensure html and body take up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* The flex container */
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content will expand to fill the available space */
+main {
+    flex: 1;
+}
+
+/* Optional: Reset margins for header, nav, and footer */
+header, nav, footer {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, nav, footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+main p, main li {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Dropdown Menu Styles (As provided earlier) */
+
+/* Dropdown Menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav ul li .dropbtn {
+    cursor: pointer;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #105512;
+    min-width: 200px;
+    z-index: 1;
+}
+
+nav ul li .dropdown-content a {
+    display: block;
+    padding: 8px;
+    color: white;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+/* Styles for lesson sections */
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    color: #2F4F4F;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+main section ul, main section ol {
+    margin-left: 20px;
+}
+
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.breadcrumb li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li + li::before {
+    content: ">";
+    padding: 0 8px;
+    color: #555;
+}
+
+.breadcrumb a {
+    color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb li[aria-current="page"] a {
+    color: #000;
+    font-weight: bold;
+    pointer-events: none;
+    text-decoration: none;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment 1: Adding and Subtracting Fractions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="assessment1.js" defer></script>
+    <!-- Include MathJax for rendering equations -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <h1>Assessment 1: Adding and Subtracting Fractions</h1>
+    </header>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lesson1.html">Lesson 1: Adding Fractions</a></li>
+            <li><a href="reflection.html">Self-Reflection</a></li>
+        </ul>
+    </nav>
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="lesson1.html">Lesson 1: Adding Fractions</a></li>
+            <li aria-current="page">Assessment</li>
+        </ol>
+    </nav>
+    <main>
+        <form id="quiz">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. What is \( \frac{1}{2} + \frac{1}{3} \) simplified?</p>
+                <label><input type="radio" name="q1" value="a"> \( \frac{2}{5} \)</label><br>
+                <label><input type="radio" name="q1" value="b"> \( \frac{5}{6} \)</label><br>
+                <label><input type="radio" name="q1" value="c"> \( \frac{3}{5} \)</label><br>
+                <label><input type="radio" name="q1" value="d"> \( \frac{1}{6} \)</label><br>
+            </div>
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Simplify \( \frac{7}{8} - \frac{1}{4} \).</p>
+                <label><input type="radio" name="q2" value="a"> \( \frac{5}{8} \)</label><br>
+                <label><input type="radio" name="q2" value="b"> \( \frac{3}{8} \)</label><br>
+                <label><input type="radio" name="q2" value="c"> \( \frac{1}{2} \)</label><br>
+                <label><input type="radio" name="q2" value="d"> \( \frac{7}{12} \)</label><br>
+            </div>
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. What is the least common denominator of \( \frac{5}{6} \) and \( \frac{7}{9} \)?</p>
+                <label><input type="radio" name="q3" value="a"> 18</label><br>
+                <label><input type="radio" name="q3" value="b"> 54</label><br>
+                <label><input type="radio" name="q3" value="c"> 36</label><br>
+                <label><input type="radio" name="q3" value="d"> 27</label><br>
+            </div>
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Calculate \( \frac{2}{5} + \frac{3}{10} \).</p>
+                <label><input type="radio" name="q4" value="a"> \( \frac{7}{15} \)</label><br>
+                <label><input type="radio" name="q4" value="b"> \( \frac{1}{2} \)</label><br>
+                <label><input type="radio" name="q4" value="c"> \( \frac{3}{4} \)</label><br>
+                <label><input type="radio" name="q4" value="d"> \( \frac{5}{10} \)</label><br>
+            </div>
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. Subtract \( \frac{4}{7} \) from \( \frac{6}{7} \).</p>
+                <label><input type="radio" name="q5" value="a"> \( \frac{2}{7} \)</label><br>
+                <label><input type="radio" name="q5" value="b"> \( \frac{10}{7} \)</label><br>
+                <label><input type="radio" name="q5" value="c"> \( \frac{1}{7} \)</label><br>
+                <label><input type="radio" name="q5" value="d"> \( \frac{4}{7} \)</label><br>
+            </div>
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. Which of the following is equivalent to \( \frac{5}{10} \) simplified?</p>
+                <label><input type="radio" name="q6" value="a"> \( \frac{1}{2} \)</label><br>
+                <label><input type="radio" name="q6" value="b"> \( \frac{5}{10} \)</label><br>
+                <label><input type="radio" name="q6" value="c"> \( \frac{2}{5} \)</label><br>
+                <label><input type="radio" name="q6" value="d"> \( \frac{3}{5} \)</label><br>
+            </div>
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. Find \( \frac{3}{4} - \frac{1}{8} \).</p>
+                <label><input type="radio" name="q7" value="a"> \( \frac{5}{8} \)</label><br>
+                <label><input type="radio" name="q7" value="b"> \( \frac{1}{2} \)</label><br>
+                <label><input type="radio" name="q7" value="c"> \( \frac{7}{8} \)</label><br>
+                <label><input type="radio" name="q7" value="d"> \( \frac{3}{8} \)</label><br>
+            </div>
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. John ate \( \frac{2}{5} \) of a pie, and Mary ate \( \frac{1}{2} \) of the same pie. How much pie is left?</p>
+                <label><input type="radio" name="q8" value="a"> \( \frac{1}{10} \)</label><br>
+                <label><input type="radio" name="q8" value="b"> \( \frac{1}{5} \)</label><br>
+                <label><input type="radio" name="q8" value="c"> \( \frac{3}{10} \)</label><br>
+                <label><input type="radio" name="q8" value="d"> No pie is left.</label><br>
+            </div>
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. What is \( \frac{7}{9} + \frac{2}{3} \) simplified?</p>
+                <label><input type="radio" name="q9" value="a"> \( \frac{13}{9} \)</label><br>
+                <label><input type="radio" name="q9" value="b"> \( \frac{1}{9} \)</label><br>
+                <label><input type="radio" name="q9" value="c"> \( \frac{11}{9} \)</label><br>
+                <label><input type="radio" name="q9" value="d"> \( \frac{5}{9} \)</label><br>
+            </div>
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. If you subtract \( \frac{5}{12} \) from \( \frac{3}{4} \), what is the result?</p>
+                <label><input type="radio" name="q10" value="a"> \( \frac{1}{3} \)</label><br>
+                <label><input type="radio" name="q10" value="b"> \( \frac{7}{12} \)</label><br>
+                <label><input type="radio" name="q10" value="c"> \( \frac{1}{12} \)</label><br>
+                <label><input type="radio" name="q10" value="d"> \( \frac{5}{6} \)</label><br>
+            </div>
+            <!-- Submit Button -->
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+        <div id="results"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Math Lessons</p>
+    </footer>
+    </div>
+</body>
+</html>
