@@ -30,7 +30,7 @@ body {
 }
 
 header, nav, footer {
-    background-color: #4CAF50;
+    background-color: #4ca3af;
     color: white;
     padding: 10px;
 }
@@ -99,7 +99,7 @@ nav ul li .dropbtn {
 nav ul li .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #105512;
+    background-color: #31729a;
     min-width: 200px;
     z-index: 1;
 }
