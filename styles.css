@@ -167,3 +167,34 @@ main section ul, main section ol {
     pointer-events: none;
     text-decoration: none;
 }
+
+
+/* Style for interactive keywords */
+.interactive-keyword {
+    position: relative;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.interactive-keyword.keyword-hover {
+    text-decoration: none;
+}
+
+/* Arrow icon near the word */
+.interactive-keyword::after {
+    content: '';
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    margin-left: 5px;
+    vertical-align: middle;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #4CAF50; /* Adjust color as needed */
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.interactive-keyword.keyword-hover::after {
+    opacity: 1;
+}
